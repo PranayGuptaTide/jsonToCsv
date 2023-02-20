@@ -1,0 +1,20 @@
+.gradle
+gradlew.bat
+/build/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+
+### Visual Studio Code ###
+.vscode
+**/.project
+.settings
+bin/main
+bin/test
+
+# Config files of individual developers
+**/application-dev-*.properties
