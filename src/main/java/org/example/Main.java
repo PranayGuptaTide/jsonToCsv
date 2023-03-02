@@ -35,7 +35,7 @@ public class Main {
         try {
             httpResponse = httpClient.send(httpRequest, HttpResponse.BodyHandlers.ofString());
         } catch (IOException | InterruptedException e) {
-            throw new RuntimeException("Error fetching data from API", e);
+            throw new RuntimeException("Error in fetching data from API", e);
         }
 
 
